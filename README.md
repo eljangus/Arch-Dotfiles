@@ -1,7 +1,10 @@
 # Hyprland-Dotfiles (Arch)
 
-Welcome to my Hyprland Dotfiles!
+<p align="center"><img width="2560" height="1440" alt="2026-01-03-001406_hyprshot" src="https://github.com/user-attachments/assets/11a33819-0f53-4f3f-aa11-157781a1a182" /></p>
+<p align="center"><img width="2559" height="1440" alt="2026-01-03-001531_hyprshot" src="https://github.com/user-attachments/assets/266081b0-3ab7-4e83-8248-add8091e6fe9" /></p>
+<p align="center"><img width="2560" height="1440" alt="2026-01-03-001626_hyprshot" src="https://github.com/user-attachments/assets/09e7cb8b-d544-44f8-9bb0-0396c21244a8" /></p>
 
+Welcome to my Hyprland Dotfiles!
 
 ## How to Install
 
@@ -73,4 +76,4 @@ Welcome to my Hyprland Dotfiles!
 **Notification center**
 - swaync
 
-# Note: This just covers the basics, you may net more packages than that, for that just view ~/Arch-Dotfiles/pkglist.txt and install as necessary
+### Note: This just covers the basics, you may net more packages than that, for that just view ~/Arch-Dotfiles/pkglist.txt and install as necessary
