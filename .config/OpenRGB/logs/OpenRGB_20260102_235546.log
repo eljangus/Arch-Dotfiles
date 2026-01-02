@@ -1,0 +1,64 @@
+    OpenRGB v0.9+ (git1791)
+    Commit: 36a6a864be6496742cf994f0e79326c75e7b9d85 from 2026-01-01 17:47:07 -0600
+    Launched: 20260102_235546
+====================================================================================================
+
+0     |Info:    [ProfileManager] Found file: 1.orp attempting to validate header
+0     |Info:    [ProfileManager] Valid v5 profile found for 1
+57    |Info:    [ResourceManager] Saving detector settings
+58    |Info:    [ResourceManager] Initializing HID interfaces: Success
+58    |Info:    ------------------------------------------------------
+58    |Info:    |               Start device detection               |
+58    |Info:    ------------------------------------------------------
+66    |Info:    ------------------------------------------------------
+66    |Info:    |             Detecting I2C interfaces               |
+66    |Info:    ------------------------------------------------------
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 1 (/dev/i2c-3) Device 1002:13C0 Subsystem: 1458:D000
+66    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 4 at 1:00.0
+ (/dev/i2c-10) Device 10DE:2C05 Subsystem: 1458:4182
+66    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-1) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: ITE8800:00 (/dev/i2c-ITE8800:00) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 1 at 1:00.0
+ (/dev/i2c-8) Device 10DE:2C05 Subsystem: 1458:4182
+66    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 1 (/dev/i2c-6) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 2 (/dev/i2c-4) Device 1002:13C0 Subsystem: 1458:D000
+66    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 5 at 1:00.0
+ (/dev/i2c-11) Device 10DE:2C05 Subsystem: 1458:4182
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 0 (/dev/i2c-2) Device 1002:13C0 Subsystem: 1458:D000
+66    |Info:    [ResourceManager] Registering I2C interface: Synopsys DesignWare I2C adapter (/dev/i2c-0) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: ITE8800:01 (/dev/i2c-ITE8800:01) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 3 at 1:00.0
+ (/dev/i2c-9) Device 10DE:2C05 Subsystem: 1458:4182
+66    |Warning: [i2c_smbus_linux] Failed to read i2c device PCI device ID
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM aux hw bus 2 (/dev/i2c-7) Device 0000:0000 Subsystem: 0000:0000
+66    |Info:    [ResourceManager] Registering I2C interface: AMDGPU DM i2c hw bus 3 (/dev/i2c-5) Device 1002:13C0 Subsystem: 1458:D000
+66    |Info:    [ResourceManager] Registering I2C interface: NVIDIA i2c adapter 6 at 1:00.0
+ (/dev/i2c-12) Device 10DE:2C05 Subsystem: 1458:4182
+66    |Info:    ------------------------------------------------------
+66    |Info:    |               Detecting I2C devices                |
+66    |Info:    ------------------------------------------------------
+88    |Info:    ------------------------------------------------------
+88    |Info:    |            Detecting I2C DIMM modules              |
+88    |Info:    ------------------------------------------------------
+88    |Info:    ------------------------------------------------------
+88    |Info:    |               Detecting I2C PCI devices            |
+88    |Info:    ------------------------------------------------------
+268   |Info:    [Gigabyte GeForce RTX 5070 Ti Eagle OC ICE] Registering RGB controller
+519   |Info:    ------------------------------------------------------
+519   |Info:    |               Detecting HID devices                |
+519   |Info:    ------------------------------------------------------
+575   |Info:    [Corsair Lighting Node Core] Registering RGB controller
+630   |Info:    [Corsair Lighting Node Core] Registering RGB controller
+853   |Info:    [X870E AORUS ELITE WIFI7 ICE] Registering RGB controller
+855   |Info:    ------------------------------------------------------
+855   |Info:    |            Detecting libusb HID devices            |
+855   |Info:    ------------------------------------------------------
+950   |Info:    ------------------------------------------------------
+950   |Info:    |              Detecting other devices               |
+950   |Info:    ------------------------------------------------------
+965   |Info:    [ResourceManager] Calling Post-detection callbacks
+965   |Info:    ------------------------------------------------------
+965   |Info:    |                Detection completed                 |
+965   |Info:    ------------------------------------------------------
+965   |Dialog:  <h2>Some internal devices may not be detected:</h2><p>One or more I2C or SMBus interfaces failed to initialize.</p><p><b>RGB DRAM modules, some motherboards' onboard RGB lighting, and RGB Graphics Cards, will not be available in OpenRGB</b> without I2C or SMBus.</p><h4>How to fix this:</h4><p>On Linux, this is usually because the i2c-dev module is not loaded.</p><p>You must load the i2c-dev module along with the correct i2c driver for your motherboard. This is usually i2c-piix4 for AMD systems and i2c-i801 for Intel systems.</p><p>See <a href='https://help.openrgb.org/'>help.openrgb.org</a> for additional troubleshooting steps if you keep seeing this message.<br></p><h3>If you are not using internal RGB on a desktop this message is not important to you.</h3>
