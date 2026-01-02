@@ -76,4 +76,4 @@ Welcome to my Hyprland Dotfiles!
 **Notification center**
 - swaync
 
-### Note: This just covers the basics, you may net more packages than that, for that just view ~/Arch-Dotfiles/pkglist.txt and install as necessary
+*Note: This just covers the basics, you may net more packages than that, for that just view ~/Arch-Dotfiles/pkglist.txt and install as necessary*
