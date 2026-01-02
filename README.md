@@ -119,7 +119,7 @@ Apply changes and reboot.
 - General launcher: SUPER + Space
 - Application launcher: SUPER + R
 
-Keybindings can be customized via:  
+Keybindings can be customized via my general launcher:  
 System → Kurzbefehle
 
 ---
@@ -148,8 +148,8 @@ System → Kurzbefehle
 
 ### Colors
 - Matugen
-- Pywalfox  
-(NixOS package name: pywalfox-native)
+- Pywalfox
+(python-pywalfox on the AUR)
 
 ### GTK Theme
 - adw-gtk3 (using Matugen-generated colors)
