@@ -12,6 +12,7 @@ brightnessctl
 btop
 cava
 cbonsai
+chromium
 chrono-date
 cliphist
 cmake
@@ -92,6 +93,7 @@ rofi
 rofi-calc
 sddm
 sddm-silent-theme
+spotify-launcher
 starship
 steam
 stow
