@@ -1,1 +1,1 @@
-LD_PRELOAD="" XKB_DEFAULT_LAYOUT=de gamescope -r 240 -w 2560 -h 1440 --force-grab-cursor -- env VKD3D_DISABLE_EXTENSIONS=VK_KHR_present_wait mangohud %command%
+LD_PRELOAD="" XKB_DEFAULT_LAYOUT=de gamescope -r 240 -w 2560 -h 1440 --force-grab-cursor -- env VKD3D_DISABLE_EXTENSIONS=VK_KHR_present_wait MANGOHUD=1 %command%
