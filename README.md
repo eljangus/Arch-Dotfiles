@@ -17,7 +17,7 @@ These dotfiles are also specifically designed to suit my workflow and may not be
 - install my packages from ```~/Arch-Dotfiles/pkglist.txt``` using ```~/Arch-Dotfiles/InstallationScripts/yay.sh```
 - read and execute anything else in ```~/Arch-Dotfiles/InstallationScripts``` to your liking, they are very specific! (I recommemd at least running symlinks.sh to symlink everthing to it's proper place)
 - Reboot
-> optionally clone my Wallpapers repository to your home directory, I have my script ```~/Arch-Dotfiles/InstallationScripts/symlinks.sh``` which will put the necessary symlinks into the proper place.
+> optionally clone my Wallpapers repository to your home directory, I have a script ```~/Arch-Dotfiles/InstallationScripts/symlinks.sh``` that will put the necessary symlinks into the proper place.
 
 ## Important Keybinds
 
