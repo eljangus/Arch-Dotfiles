@@ -13,11 +13,11 @@ These dotfiles are also specifically designed to suit my workflow and may not be
 
 - Clone this repo into your home directory
 - cd into ```~/Arch-Dotfiles```
-- perform ```stow .``` and resolve any possible conflicts that may arise (in most cases because you have config files in ~/.config/ which stow will try to overwrite but can't)
+- perform ```stow .``` and resolve any possible conflicts that may arise (in most cases because you have config files in ```~/.config``` which stow will try to overwrite but can't)
 - install my packages from ```~/Arch-Dotfiles/pkglist.txt``` using ```~/Arch-Dotfiles/InstallationScripts/yay.sh```
 - read and execute anything else in ```~/Arch-Dotfiles/InstallationScripts``` to your liking, they are very specific! (I recommemd at least running symlinks.sh to symlink everthing to it's proper place)
 - Reboot
-> optionally clone my Wallpapers repository to your home directory, as my scripts will look for wallpapers within ```~/Wallpapers/Walls-dark/Walls``` or ```~/Wallpapers/Walls-light/Walls```
+> optionally clone my Wallpapers repository to your home directory, I have my script ```~/Arch-Dotfiles/InstallationScripts/symlinks.sh``` which will put the necessary symlinks into the proper place.
 
 ## Important Keybinds
 
@@ -46,7 +46,7 @@ These dotfiles are also specifically designed to suit my workflow and may not be
 
 **Colors**
 - Matugen
-- Pywalfox (nixpkg is called pywalfox-native)
+- Pywalfox
 
 **GTK Theme**
 - adw-gtk3 powered by matugen colors
@@ -57,5 +57,4 @@ These dotfiles are also specifically designed to suit my workflow and may not be
 
 **Notification center**
 - swaync
-- libnotify (necessary on NixOS)
 
