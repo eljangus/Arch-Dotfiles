@@ -73,7 +73,7 @@ mainbox {
 }
 
 inputbar {
-  padding: 0.28em 0em 0em 0em;
+  padding: 0em 0em 0em 0em;
   background-color: transparent;
   children: [ textbox-custom, entry ];
   border: 0em;
