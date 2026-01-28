@@ -1,0 +1,7 @@
+* {
+borderradius: 10px;
+borderradiuselement: 10px;
+buttonradius: 9px;
+buttonradius-right: 0px 9px 9px 0px;
+buttonradius-left: 9px 0px 0px 9px;
+}

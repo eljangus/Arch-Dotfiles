@@ -1,0 +1,19 @@
+@import "~/.config/RofiScripts/Scaling/Current/size.rasi"
+
+configuration{
+ modi: "dmenu";
+ fixed-num-lines: false;
+ show-icons: false;
+ icon-theme: "Icons";
+ eh: 1;
+ dpi: 100;
+ display-drun: "";
+ display-run: "";
+ display-filebrowser: "󱧷";
+ location: 0;
+/* hover-select: true;
+ me-select-entry: '';
+ me-accept-entry: "MousePrimary"; */
+}
+
+@theme "~/.config/RofiScripts/Scaling/ST.rasi"

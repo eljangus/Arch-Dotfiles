@@ -1,0 +1,28 @@
+[Default Applications]
+text/plain=codium.desktop
+text/css=codium.desktop
+text/html=firefox.desktop
+application/schema+json=codium.desktop
+application/x-shellscript=codium.desktop
+application/x-zerosize=codium.desktop
+image/jpeg=imv.desktop
+image/png=imv.desktop
+image/gif=imv.desktop
+image/webp=imv.desktop
+image/heif=imv.desktop
+audio/mpeg=org.gnome.Decibels.desktop
+x-scheme-handler/http=firefox.desktop
+x-scheme-handler/https=firefox.desktop
+x-scheme-handler/about=firefox.desktop
+x-scheme-handler/unknown=firefox.desktop
+inode/directory=org.gnome.Nautilus.desktop
+inode/symlink=codium.desktop
+application/pdf=firefox.desktop
+application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox.desktop
+application/zip=org.gnome.Nautilus.desktop
+
+
+[Added Associations]
+text/plain=codium.desktop
+text/css=codium.desktop
+application/x-shellscript=codium.desktop

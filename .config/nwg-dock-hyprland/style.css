@@ -1,0 +1,154 @@
+@import "../colors/colors.css";
+
+window {
+  background: @background;
+  border-radius: 1em;
+  box-shadow: none;
+  text-shadow: none;
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+  border: none;
+  outline: none;  
+}
+
+* {
+  background: none;
+  background-color: transparent;
+  color: @secondary;
+  font-size: 16px;
+  font-family: "JetBrainsMono Nerd Font";
+  box-shadow: none;
+  text-shadow: none;
+  border-style: none;
+  border-width: 0em;
+  outline: none;  
+  padding: 0;
+  margin: 0;
+  min-height: 0;
+  min-width: 0;
+}
+
+#box {
+  padding: 0.4em;
+  margin: 0em;
+  border-style: none;
+  border-width: 0em;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+  border-radius: 1em;
+}
+
+#active {
+  border-bottom: solid 0em @primary;
+  border-style: none;
+  border-width: 0em;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button image:hover,
+button image {
+  background: transparent;
+  border-style: none;
+  border-width: 0em;
+  outline: none;  
+  box-shadow: none;
+  text-shadow: none;
+  color: @secondary;
+}
+
+button {
+  border: 2px solid transparent;
+  padding: 0.625em;
+  margin: 0.2em;
+  color: @secondary;
+  border-radius: 1em;
+  background-color: @surface_container;
+  transition: all 0.3s ease;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button:hover {
+  background-color: @surface_container;
+  border-radius: 1em;
+  color: inherit;
+  border: 2px solid @primary;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+button:focus {
+  box-shadow: none;
+  text-shadow: none;
+  border-style: none;
+  border-width: 0em;
+  outline: none;  
+  transition: all 0.3s ease;
+}
+
+tooltip {
+  background-color: @background;
+  padding: 0.3125em; 
+  color: @secondary;
+  border-radius: 1em;
+  border: 0em solid @primary;
+}
+
+tooltip label {
+  padding: 0.3125em;
+  border-radius: 1em;
+  font-weight: bold;
+  color: @secondary;
+  text-shadow: none;
+}
+
+menu, menu {
+  background-color: @surface_container_container;
+  color: @secondary;
+  padding: 0; 
+  border: 0em solid @primary;
+  border-radius: 1em;
+}
+
+menu menuitem {
+  background-color: transparent;
+  border-radius: 0em;
+  padding: 0.35em 1em;
+}
+
+menu menuitem:hover {
+  background-color: @surface_container;
+  border-radius: 0em;
+}
+
+menu menuitem:last-child {
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+menu menuitem:first-child {
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+}
+
+menu menuitem label {
+  color: @secondary;
+}
+
+menu menuitem:hover label {
+  color: @secondary;
+}
+
+menu menu menuitem label {
+  color: @secondary; 
+}
+
+menu menu menuitem:hover label {
+  color: @secondary;
+}
+
