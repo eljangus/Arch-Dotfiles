@@ -25,27 +25,27 @@ window#waybar.empty #window {
 
 #custom-System {
     background: @background;
-    border-radius: 1.32em;
+    border-radius: 1.2em;
     font-size: 1.25em;
     color: @secondary;
-    padding: 0.2em 0.7em;
+    padding: 0.2em 0.6em;
     transition: 0.3s all ease;
 }
 #custom-System:hover { color: @primary }
 
 #custom-notifications {
     background: @background;
-    border-radius: 1.5em;
-    font-size: 1em;
+    border-radius: 1.33em;
+    font-size: 1.125em;
     color: @secondary;
-    padding: 0em 0.975em;
+    padding: 0em 0.78em;
     transition: 0.3s all ease;
 }
 #custom-notifications:hover { color: @primary }
 
 #workspaces {
     background: @background;
-    padding: 0.35em 0.45em 0.35em 0.45em;
+    padding: 0.35em 0.55em 0.35em 0.55em;
     border-radius: 1.5em;
     transition: 0.3s all ease;
 }
@@ -59,10 +59,10 @@ window#waybar.empty #window {
 
 #workspaces button label {
     background: @surface_container;
-    padding: 0em 2.6em;
+    padding: 0em 2.1em;
     border-radius: 10em;
     font-size: 0.25em;
-    margin: 0.7em 0.4em;
+    margin: 1em 0.4em;
     transition: all 0.3s ease;
 }
 
@@ -71,7 +71,7 @@ window#waybar.empty #window {
     font-size: 0.25em;
     padding: 0em 8em;
     border-radius: 10em;
-    margin: 0.7em 0.4em;
+    margin: 1em 0.4em;
     transition: all 0.3s ease;
 }
 
@@ -91,15 +91,15 @@ window#waybar.empty #window {
 
 #clock {
     background: @background;
-    border-radius: 1.766em;
-    font-size: 0.85em;
+    border-radius: 1.5em;
+    font-size: 1em;
     color: @secondary;
-    padding: 0em 0.825em;
+    padding: 0em 0.7em;
     transition: 0.3s all ease;
 }
 #clock:hover { color: @primary; }
 
-#window label { font-size: 0.85em; }
+#window label { font-size: 1em; }
 #window {
     background: @background;
     border-radius: 1.5em;
@@ -111,10 +111,10 @@ window#waybar.empty #window {
 
 #mpris {
     background: @background;
-    border-radius: 1.766em;
-    font-size: 0.85em;
+    border-radius: 1.5em;
+    font-size: 1em;
     color: @secondary;
-    padding: 0em 0.825em;
+    padding: 0em 0.7em;
     transition: 0.3s all ease;
 }
 #mpris:hover { color: @primary; }
@@ -196,13 +196,13 @@ tooltip {
 }
 
 tooltip label {
-    font-size: 0.85em;
+    font-size: 1em;
     padding: 0.5em 1em;
     font-weight: bold;
     color: @secondary;
 }
 
-#tray label { font-size: 0.85em; }
+#tray label { font-size: 1em; }
 #tray {
     border-radius: 1em;
     padding: 0em 0.25em;
