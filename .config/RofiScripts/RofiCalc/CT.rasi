@@ -143,7 +143,7 @@ element-text {
 element selected.urgent,
 element selected.active,
 element selected.normal {
-  background-color: var(surface-container-highest);
+  background-color: var(surface-container);
   text-color: var(secondary);
   border: 0em;
   border-color: var(primary);

@@ -84,7 +84,7 @@ element-text{
 }
 
 element selected.normal {
- background-color: var(surface-container-highest);
+ background-color: var(surface-container);
  text-color: var(secondary);
  border: 0;
  border-color: var(primary);
