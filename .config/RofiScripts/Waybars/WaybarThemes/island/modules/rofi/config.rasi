@@ -10,7 +10,6 @@ configuration{
  display-drun: "";
  display-run: "";
  display-filebrowser: "󱧷";
- location: 0;
 /* hover-select: true;
  me-select-entry: '';
  me-accept-entry: "MousePrimary"; */
