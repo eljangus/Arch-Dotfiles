@@ -1,6 +1,6 @@
 #! /bin/sh
 
-chosen=$(printf " Anwendungsstarter\n System\n󰅌 Zwischenablage\n Emojiwähler\n󰃬 Taschenrechner\n Waybar\n Farbschema\n󰘇 Dekorationen\n󰥛 Animationen\n Hintergrundbild\n" | rofi -dmenu -i -config '~/.config/RofiScripts/Launcher/L.rasi')
+chosen=$(printf " Anwendungsstarter\n System\n󰅌 Zwischenablage\n Emojiwähler\n󰃬 Taschenrechner\n Waybar\n󰔎 Gerätedesign\n󰘇 Dekorationen\n󰥛 Animationen\n Hintergrundbild\n" | rofi -dmenu -i -config '~/.config/RofiScripts/Launcher/L.rasi')
 
 case "$chosen" in
    
@@ -12,7 +12,7 @@ case "$chosen" in
    "󰃬 Taschenrechner") ~/.config/RofiScripts/RofiCalc/Calc.sh ;;
    " Waybar") ~/.config/RofiScripts/Waybars/Waybar.sh ;;
    "󰍹 Monitor") ~/.config/RofiScripts/Monitor/monitor_select.sh ;;
-   " Farbschema") ~/.config/RofiScripts/Dark-Light-Mode/DLmode.sh ;;
+   "󰔎 Gerätedesign") ~/.config/RofiScripts/Dark-Light-Mode/DLmode.sh ;;
    "󰘇 Dekorationen") ~/.config/RofiScripts/Rounding/Rounding.sh ;;
    "󰥛 Animationen") ~/.config/RofiScripts/Animations/Animations.sh ;;
    " Hintergrundbild") ~/.config/RofiScripts/WallpaperChanger/WallMenu.sh ;;
