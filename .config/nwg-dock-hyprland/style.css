@@ -39,6 +39,7 @@ window {
   box-shadow: none;
   text-shadow: none;
   border-radius: 1em;
+  border: 1px solid @surface_container;
 }
 
 #active {
@@ -96,7 +97,7 @@ tooltip {
   padding: 0.3125em; 
   color: @secondary;
   border-radius: 1em;
-  border: 0em solid @primary;
+  border: 1px solid @surface_container;
 }
 
 tooltip label {
@@ -111,7 +112,7 @@ menu, menu {
   background-color: @surface_container_container;
   color: @secondary;
   padding: 0; 
-  border: 0em solid @primary;
+  border: 1px solid @surface_container;
   border-radius: 1em;
 }
 

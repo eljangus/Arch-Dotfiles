@@ -30,6 +30,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0.2em 0.6em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #custom-System:hover { color: @primary }
 
@@ -40,6 +41,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.78em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #custom-notifications:hover { color: @primary }
 
@@ -48,6 +50,7 @@ window#waybar.empty #window {
     padding: 0.35em 0.55em 0.35em 0.55em;
     border-radius: 1.5em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 
 #workspaces button {
@@ -96,6 +99,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.7em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #clock:hover { color: @primary; }
 
@@ -106,6 +110,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.7em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #window:hover { color: @primary; }
 
@@ -116,6 +121,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.7em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #mpris:hover { color: @primary; }
 
@@ -174,6 +180,7 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.55em;
     transition: 0.3s all ease;
+    border: 1px solid @surface_container;
 }
 #pulseaudio:hover,
 #idle_inhibitor:hover,
@@ -192,7 +199,7 @@ tooltip {
     padding: 0.5em;
     color: @secondary;
     border-radius: 1em;
-    border: 0 solid @border;
+    border: 1px solid @surface_container;
 }
 
 tooltip label {
@@ -202,6 +209,7 @@ tooltip label {
     color: @secondary;
 }
 
+#tray menu { border: 1px solid @surface_container; padding: 0.05em; }
 #tray label { font-size: 1em; }
 #tray {
     border-radius: 1em;

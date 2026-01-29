@@ -6,7 +6,7 @@ window {
   border-radius: var(borderradius);
   transparency: "real";
   background-color: var(surface);
-  x-offset: 0;
+  x-offset: 20;
   y-offset: 20;
 }
 
@@ -37,7 +37,7 @@ entry {
   border-color: var(primary);
   border: 0.075em;
   padding: 0.4em 0.54em 0.4em 0.54em;
-  margin: 0em 0em 0em -5.193em;
+  margin: 0em 0em 0em -5.153em;
   border-radius: var(buttonradius);
   background-color: var(surface);
 }
@@ -49,7 +49,7 @@ textbox-custom {
   border: 0.075em;
   border-color: var(primary);
   padding: 0.4em 0.54em 0.4em 0.54em;
-  margin: 0em 5.333em 0em 0em;
+  margin: 0em 5.299em 0em 0em;
   border-radius: var(buttonradius);
   background-color: var(surface);
 }
@@ -72,6 +72,8 @@ mainbox {
   spacing: 0em;
   padding: 0.8em;
   border-radius: var(borderradius);
+  border: 1px;
+  border-color: var(surface-container);
   children: [ inputbar, listview ];
 }
 

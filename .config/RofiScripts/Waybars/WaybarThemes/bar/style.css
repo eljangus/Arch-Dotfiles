@@ -18,6 +18,7 @@ window#waybar:hover,
 window#waybar {
     background: @background;
     border-radius: 1.5em;
+    border: 1px solid @surface_container;
 }
 
 window#waybar.empty #window {
@@ -203,6 +204,7 @@ tooltip {
     color: @secondary;
     border-radius: 1em;
     border: 0 solid @border;
+    border: 1px solid @surface_container;
 }
 
 tooltip label {
@@ -221,6 +223,7 @@ tooltip label {
     transition: 0.3s all ease;
 }
 
+#tray menu { border: 1px solid @surface_container; padding: 0.05em; }
 #tray menu, menu {
     background: @background;
     color: @secondary;

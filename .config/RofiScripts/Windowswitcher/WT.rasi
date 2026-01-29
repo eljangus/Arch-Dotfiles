@@ -35,7 +35,7 @@ entry {
   border-color: var(primary);
   border: 0.075em;
   padding: 0.4em 0.54em 0.4em 0.54em;
-  margin: 0em 0em 0em -10.293em;
+  margin: 0em 0em 0em -10.259em;
   border-radius: var(buttonradius);
   background-color: var(surface);
 }
@@ -47,7 +47,7 @@ textbox-custom {
   border: 0.075em;
   border-color: var(primary);
   padding: 0.4em 0.54em 0.4em 0.54em;
-  margin: 0em 10.433em 0em 0em;
+  margin: 0em 10.399em 0em 0em;
   border-radius: var(buttonradius);
   background-color: var(surface);
 }
@@ -69,6 +69,8 @@ mainbox {
   background-color: transparent;
   spacing: 0em;
   padding: 0.8em;
+  border: 1px;
+  border-color: var(surface-container);
   border-radius: var(borderradius);
   children: [ inputbar, listview ];
 }

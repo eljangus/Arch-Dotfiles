@@ -2,15 +2,13 @@
 @import "~/.config/colors/rofiradius.rasi"
 
 window {
-  width: 4.796em;
+  width: 4.805em;
   padding: 0;
   border: 0px;
   border-color: var(primary);
   border-radius: var(borderradius);
   transparency: "real";
   background-color: var(surface);
-  x-offset: -10px;
-  y-offset: 10px;
 }
 error-message {
   enabled: false;
@@ -34,6 +32,8 @@ mainbox {
   background-color: transparent;
   spacing: 0; 
   padding: 0.14em;
+  border: 1px;
+  border-color: var(surface-container);
   border-radius: var(borderradius);
   children: [ listview ];
 }

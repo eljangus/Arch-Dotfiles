@@ -30,6 +30,8 @@ window#waybar.empty #window {
     border-radius: 0em;
     margin: 0em 0em;
     transition: 0.3s all ease;
+    border-top: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
 }
 
 #workspaces button {
@@ -66,6 +68,9 @@ window#waybar.empty #window {
     padding: 0em 0.5em 0 1em;
     margin: 0em;
     transition: all 0.3s ease;
+    border-left: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
+    border-top: 1px solid @surface_container;
 }
 #clock:hover { color: @primary; }
 
@@ -76,6 +81,8 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.5em 0em 0.5em;
     margin: 0em 0em 0 0;
+    border-top: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
     transition: all 0.3s ease;
 }
 #mpris:hover { color: @primary; }
@@ -115,6 +122,8 @@ window#waybar.empty #window {
     color: @secondary;
     padding: 0em 0.5em 0 0.5em;
     margin: 0em 0em 0em 0em;
+    border-top: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
     transition: all 0.3s ease;
 }
 #volume:hover { color: @primary; }
@@ -124,6 +133,8 @@ window#waybar.empty #window {
     font-size: 1em;
     color: @secondary;
     padding: 0em 0.5em 0em 0.5em;
+    border-top: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
     margin: 0em 0em 0em 0em;
     transition: all 0.3s ease
 }
@@ -133,6 +144,9 @@ window#waybar.empty #window {
     background: @background;
     border-radius: 0em 1.5em 1.5em 0em;
     font-size: 1em;
+    border-top: 1px solid @surface_container;
+    border-bottom: 1px solid @surface_container;
+    border-right: 1px solid @surface_container;
     color: @secondary;
     padding: 0em 1em 0em 0.5em;
     margin: 0em;
@@ -146,7 +160,7 @@ tooltip {
     padding: 0.5em;
     color: @secondary;
     border-radius: 1.5em;
-    border: 0 solid @border;
+    border: 1px solid @surface_container
 }
 
 tooltip label {
@@ -157,6 +171,7 @@ tooltip label {
     color: @secondary;
 }
 
+#tray menu { border: 1px solid @surface_container; padding: 0.05em; }
 #tray label { font-size: 1em; }
 #tray {
     border-radius: 1.5em;
