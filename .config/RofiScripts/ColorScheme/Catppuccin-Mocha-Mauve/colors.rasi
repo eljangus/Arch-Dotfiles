@@ -6,7 +6,7 @@
     on-error: #690005;
     error-container: #93000a;
     surface: #1e1e2e;
-    outline: #181825;
+    outline: #6c7086;
     surface-container: #313244;
     surface-container-high: #45475a;
     surface-container-highest: #585b70;
