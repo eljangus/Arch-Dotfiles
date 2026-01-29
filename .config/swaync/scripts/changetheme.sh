@@ -1,1 +1,1 @@
-/home/elias/.config/RofiScripts/Dark-Light-Mode/Hell/hell.sh
+/home/elias/.config/RofiScripts/Dark-Light-Mode/light/light.sh

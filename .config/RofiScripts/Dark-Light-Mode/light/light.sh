@@ -6,5 +6,5 @@ ln -sfn ~/.config/RofiScripts/Walls-light/wall.sh ~/.config/RofiScripts/Wallpape
 ln -sfn ~/.config/RofiScripts/Walls-light/wallrandom.sh ~/.config/RofiScripts/WallpaperChanger/wallrandom.sh
 matugen image ~/.config/RofiScripts/WallpaperChanger/Wallpaper -m light -t scheme-tonal-spot
 
-ln -sfn ~/.config/RofiScripts/Dark-Light-Mode/Dunkel/dunkel.sh ~/.config/swaync/scripts/changetheme.sh
-ln -sfn ~/.config/RofiScripts/Dark-Light-Mode/Hell/matugen.sh ~/.config/RofiScripts/ColorScheme/matugen/matugen.sh
+ln -sfn ~/.config/RofiScripts/Dark-Light-Mode/dark/dark.sh ~/.config/swaync/scripts/changetheme.sh
+ln -sfn ~/.config/RofiScripts/Dark-Light-Mode/light/matugen.sh ~/.config/RofiScripts/ColorScheme/matugen/matugen.sh
