@@ -57,11 +57,11 @@
 }
 .notification-default-action:hover {
   background-color: transparent;
-  color: @secondary_fixed;  
+  color: @secondary;  
 }
 .notification:hover {
   background-color: @surface_container;
-  color: @secondary_fixed;
+  color: @secondary;
 }
 .notification-group {
   border-radius: 0;

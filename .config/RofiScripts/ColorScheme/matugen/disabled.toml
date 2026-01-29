@@ -1,0 +1,71 @@
+[config.wallpaper]
+command = "swww"
+arguments = ["img", "--transition-type", "wipe", "--transition-fps", "240", "--transition-step", "255", "--transition-duration", "1", "--transition-angle", "45", "--transition-bezier", "0.7,0.51,0.3,0.76" ]
+set = true
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '/tmp/waybar-colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+[templates.swaync]
+input_path = '~/.config/matugen/templates/colors.css'
+output_path = '/tmp/swaync-colors.css'
+post_hook = 'swaync-client -R; swaync-client -rs'
+
+[templates.hyprland]
+input_path = '~/.config/matugen/templates/hyprcolors.conf'
+output_path = '/tmp/hyprcolors.conf'
+post_hook = 'hyprctl reload'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '/tmp/kitty-Matugen.conf'
+post_hook = "kitty +kitten themes --reload-in=all Matugen"
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/colors.rasi'
+output_path = '/tmp/rofi-colors.rasi'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '/tmp/gtk-colors.css'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '/tmp/gtk-colors.css'
+
+[templates.cava]
+input_path = '~/.config/matugen/templates/cava-colors.ini'
+output_path = '/tmp/cava-matugen'
+post_hook = "pkill -USR1 cava"
+
+[templates.btop]
+input_path = '~/.config/matugen/templates/btop.theme'
+output_path = '/tmp/btop-matugen.theme'
+
+[templates.qt5ct]
+input_path = '~/.config/matugen/templates/qtct.conf'
+output_path = '/tmp/qt5ct-matugen.conf'
+
+[templates.qt6ct]
+input_path = '~/.config/matugen/templates/qtct.conf'
+output_path = '/tmp/qt6ct-matugen.conf'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox-colors.json'
+output_path = '/tmp/pywalfox-colors.json'
+post_hook = 'pywalfox update'
+
+#[templates.alacritty]
+#input_path = '~/.config/matugen/templates/alacritty.toml'
+#output_path = '/tmp/alacritty-colors.toml'
+
+#[templates.ghostty]
+#input_path = '~/.config/matugen/templates/ghostty'
+#output_path = '/tmp/ghostty-Matugen'
+#post_hook = 'pkill -SIGUSR2 ghostty'
+
+#[templates.vesktop]
+#input_path = '~/.config/matugen/templates/midnight-discord.css'
+#output_path = '/tmp/vesktop-midnight-discord.css'

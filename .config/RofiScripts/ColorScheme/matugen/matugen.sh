@@ -1,0 +1,1 @@
+/home/elias/.config/RofiScripts/Dark-Light-Mode/Dunkel/matugen.sh
