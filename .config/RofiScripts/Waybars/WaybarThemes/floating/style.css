@@ -21,6 +21,7 @@ window#waybar {
 
 window#waybar.empty #window {
     background: transparent;
+    border: none;
 }
 
 #custom-System {
