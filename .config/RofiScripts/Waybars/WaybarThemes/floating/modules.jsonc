@@ -103,7 +103,7 @@
   "tooltip": false,
   "timezone": "Europe/Berlin",
   "tooltip-format": "<big>{:L%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-  "format" : " {:L%H:%M  󰸗 %a %d.}",
+  "format" : " {:L%H:%M  󰸗 %a %d}",
   "on-click": "killall gnome-calendar & hyprctl dispatch exec '[float; size 1000 800] gnome-calendar'",
     "calendar": {
     "mode"          : "year",
