@@ -40,7 +40,7 @@
 .close-button {
   background-color: @secondary;
   padding: 0.2em;
-  margin: 0.6em 0.8em;
+  margin: 0.6em 0.8em 0em 0em;
   border-radius: var(--border-radius);
 }
 .close-button:hover {
