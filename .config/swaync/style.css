@@ -288,7 +288,7 @@ scrollbar trough:hover {
   border-radius: var(--button-radius);
 }
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background: alpha(@secondary, 0.2);
+  background: @surface_container_highest;
   margin: 0.1em 0em 0.1em 0.1em;
   padding: 1.3em 2.054em;
 }
