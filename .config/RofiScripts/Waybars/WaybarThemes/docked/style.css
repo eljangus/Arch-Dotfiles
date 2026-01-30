@@ -1,0 +1,256 @@
+@import "../colors/colors.css";
+
+* {
+    font-family: JetBrainsMono Nerd Font Propo;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+    min-height: 0;
+    min-width: 0;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+window#waybar:hover,
+window#waybar {
+    background: @background;
+    border-radius: 0em;
+    border-bottom: 1px solid @surface_container;
+}
+
+window#waybar.empty #window {
+    background: transparent;
+    border: none;
+}
+
+#custom-System {
+    background: @surface_container;
+    border-radius: 1.2em;
+    font-size: 1.25em;
+    color: @secondary;
+    padding: 0em 0.56em;
+    margin: 0.3em 0.08em 0.3em 0.16em;
+    transition: 0.3s all ease;
+}
+#custom-System:hover { color: @primary }
+
+#custom-notifications {
+    background: @surface_container;
+    border-radius: 1.5em;
+    font-size: 1em;
+    color: @secondary;
+    padding: 0em 0.85em;
+    margin: 0.35em 0.1em;
+    transition: 0.3s all ease;
+}
+#custom-notifications:hover { color: @primary }
+
+#workspaces {
+    background: @surface_container;
+    padding: 0.35em 0.6em 0.35em 0.6em;
+    border-radius: 1.5em;
+    margin: 0.375em 0.1em;
+    transition: 0.3s all ease;
+}
+
+#workspaces button {
+    background: transparent;
+    border-radius: 1em;
+    color: transparent;
+    transition: all 0.3s ease;
+}
+
+#workspaces button label {
+    background: @surface_container_high;
+    padding: 0em 1.6em;
+    border-radius: 10em;
+    font-size: 0.25em;
+    margin: 0.7em 0.4em;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active label {
+    background: linear-gradient(45deg, @primary, @tertiary);
+    font-size: 0.25em;
+    padding: 0em 6em;
+    border-radius: 10em;
+    margin: 0.7em 0.4em;
+    transition: all 0.3s ease;
+}
+
+#workspaces button.active.empty label,
+#workspaces button.active label { color: transparent }
+#workspaces button.active.empty:hover label,
+#workspaces button.active:hover label { color: transparent; background: linear-gradient(45deg, @primary, @tertiary) }
+#workspaces button:hover label,
+#workspaces button.empty:hover label { color: transparent; background-color: @surface_container_highest }
+#workspaces button.active.empty,
+#workspaces button.active { color: transparent; background: transparent }
+#workspaces button.active.empty:hover,
+#workspaces button.active:hover { color: transparent; background: transparent }
+#workspaces button:hover { color: transparent; background: transparent }
+#workspaces button.empty { color: transparent; background: transparent }
+#workspaces button.empty:hover { color: transparent; background: transparent }
+
+#clock {
+    background: @surface_container;
+    border-radius: 1.766em;
+    font-size: 0.85em;
+    color: @secondary;
+    padding: 0em 0.825em;
+    margin: 0.45em 0.12em;
+    transition: 0.3s all ease;
+}
+#clock:hover { color: @primary; }
+
+#window label { font-size: 0.85em; }
+#window {
+    background: @surface_container;
+    border-radius: 1.5em;
+    color: @secondary;
+    padding: 0em 0.7em;
+    margin: 0.375em 0.12em;
+    transition: 0.3s all ease;
+}
+#window:hover { color: @primary; }
+
+#mpris {
+    background: @surface_container;
+    border-radius: 1.766em;
+    font-size: 0.85em;
+    color: @secondary;
+    padding: 0em 0.825em;
+    margin: 0.45em 0.12em;
+    transition: 0.3s all ease;
+}
+#mpris:hover { color: @primary; }
+
+
+#pulseaudio-slider {
+    background: transparent; 
+    border-radius: 1.5em; 
+    padding: 0 0.4em 0 0.4em; 
+    color: @secondary;
+}
+#pulseaudio-slider slider {
+    background: @secondary;
+    min-height: 0;
+    min-width: 0;
+    margin: 0em;
+    box-shadow: none;
+}
+#pulseaudio-slider trough {
+    background: @surface_container_high; 
+    min-width: 4em; 
+    min-height: 0.3em; 
+    box-shadow: none;
+    border-radius: 1.5em; 
+}
+
+#pulseaudio-slider highlight {
+    background: linear-gradient(45deg, @primary, @tertiary);
+    border-radius: 1.5em; 
+    margin: 0;
+    box-shadow: none;
+    border: 0 solid @border;
+    color: @primary;
+}
+
+
+#custom-trayicon,
+#custom-powermenu,
+#bluetooth,
+#idle_inhibitor,
+#network,
+#pulseaudio {
+    background: transparent;
+    font-size: 1em;
+    color: @secondary;
+    padding: 0em 0.1em;
+    margin: 0em 0.25em;
+    transition: 0.3s all ease;
+}
+
+#netblue,
+#traywermen,
+#idlevol {
+    background: @surface_container;
+    border-radius: 1.5em;
+    font-size: 1em;
+    color: @secondary;
+    padding: 0em 0.55em;
+    margin: 0.375em 0.1em;
+    transition: 0.3s all ease;
+}
+#pulseaudio:hover,
+#idle_inhibitor:hover,
+#network:hover,
+#bluetooth:hover,
+#tray:hover,
+#traywer:hover,
+#custom-trayicon:hover,
+#custom-powermenu:hover,
+#netblue:hover,
+#traywermen:hover,
+#idlevol:hover { color: @primary; }
+
+#traywermen { margin-right: 0.2em }
+
+tooltip {
+    background-color: @background;
+    padding: 0.5em;
+    color: @secondary;
+    border-radius: 1em;
+    border: 0 solid @border;
+    border: 1px solid @surface_container;
+}
+
+tooltip label {
+    font-size: 0.85em;
+    padding: 0.5em 1em;
+    font-weight: bold;
+    color: @secondary;
+}
+
+#tray label { font-size: 0.85em; }
+#tray {
+    border-radius: 1em;
+    padding: 0em 0.25em;
+    color: @secondary;
+    border: 0 solid @border;
+    transition: 0.3s all ease;
+}
+
+#tray menu { border: 1px solid @surface_container; padding: 0.05em; }
+#tray menu, menu {
+    background: @background;
+    color: @secondary;
+    border-radius: 1em;
+}
+
+#tray menu menuitem {
+    background: @background;
+    color: @secondary;
+    padding: 0.35em 1em;
+}
+
+#tray menu menuitem:last-child,
+#tray menu menuitem:hover:last-child {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+
+#tray menu menuitem:first-child,
+#tray menu menuitem:hover:first-child {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+
+#tray menu menuitem:hover {
+    background-color: @surface_container;
+    border-radius: 0;
+}
+
