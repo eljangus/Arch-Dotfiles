@@ -52,11 +52,6 @@ output_path = '/tmp/qt5ct-matugen.conf'
 input_path = '~/.config/matugen/templates/qtct.conf'
 output_path = '/tmp/qt6ct-matugen.conf'
 
-[templates.pywalfox]
-input_path = '~/.config/matugen/templates/pywalfox-colors.json'
-output_path = '/tmp/pywalfox-colors.json'
-post_hook = 'pywalfox update'
-
 #[templates.alacritty]
 #input_path = '~/.config/matugen/templates/alacritty.toml'
 #output_path = '/tmp/alacritty-colors.toml'

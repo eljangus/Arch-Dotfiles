@@ -87,7 +87,6 @@ pipewire-alsa
 pipewire-jack
 pipewire-pulse
 prismlauncher
-python-pywalfox
 qt5-wayland
 qt5ct
 qt6-wayland
