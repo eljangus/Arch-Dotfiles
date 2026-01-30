@@ -1,5 +1,6 @@
 #! /bin/sh
 
+~/.config/RofiScripts/Dark-Light-Mode/dark/dark.sh
 ln -sf ~/.config/RofiScripts/ColorScheme/matugen/disabled.toml ~/.config/matugen/config.toml
 cp ~/.config/RofiScripts/ColorScheme/Catppuccin-Mocha-Mauve/gtk-colors.css ~/.config/gtk-3.0/colors.css
 cp ~/.config/RofiScripts/ColorScheme/Catppuccin-Mocha-Mauve/gtk-colors.css ~/.config/gtk-4.0/colors.css
