@@ -43,7 +43,6 @@ gst-libav
 gst-plugin-pipewire
 gst-plugins-bad
 gst-plugins-ugly
-gthumb
 hypridle
 hyprland
 hyprlock
