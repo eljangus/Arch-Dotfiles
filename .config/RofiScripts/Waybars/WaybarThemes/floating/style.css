@@ -141,7 +141,7 @@ window#waybar.empty #window {
     box-shadow: none;
 }
 #pulseaudio-slider trough {
-    background: @background; 
+    background: @surface_container; 
     min-width: 4em; 
     min-height: 0.3em; 
     box-shadow: none;

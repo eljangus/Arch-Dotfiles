@@ -100,7 +100,7 @@ window#waybar.empty #window {
     min-width: 0;
 }
 #pulseaudio-slider trough {
-    background: @surface_container_high; 
+    background: @surface_container; 
     min-width: 5em; 
     min-height: 0.4em; 
     box-shadow: none;
