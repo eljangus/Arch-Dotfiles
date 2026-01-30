@@ -7,7 +7,7 @@ application/x-shellscript=codium.desktop
 application/x-zerosize=codium.desktop
 image/jpeg=imv.desktop
 image/png=imv.desktop
-image/gif=imv.desktop
+image/gif=mpv.desktop
 image/webp=imv.desktop
 image/heif=imv.desktop
 audio/mpeg=org.gnome.Decibels.desktop
@@ -20,9 +20,13 @@ inode/symlink=codium.desktop
 application/pdf=firefox.desktop
 application/vnd.openxmlformats-officedocument.wordprocessingml.document=firefox.desktop
 application/zip=org.gnome.Nautilus.desktop
-
+x-scheme-handler/discord=vesktop.desktop
+x-scheme-handler/discord-1216669957799018608=discord-1216669957799018608.desktop
+application/json=codium.desktop
 
 [Added Associations]
 text/plain=codium.desktop
 text/css=codium.desktop
 application/x-shellscript=codium.desktop
+application/json=codium.desktop;
+image/gif=mpv.desktop;
