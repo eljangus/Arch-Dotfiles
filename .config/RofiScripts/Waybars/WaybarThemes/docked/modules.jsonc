@@ -2,7 +2,7 @@
 "custom/System": {
   "tooltip": false,
   "format" : "󰣇",
-  "on-click": "setsid ~/.config/RofiScripts/Waybars/WaybarThemes/bar/modules/rofi/rofi.sh"
+  "on-click": "setsid ~/.config/RofiScripts/Waybars/WaybarThemes/docked/modules/rofi/rofi.sh"
                },
 "custom/powermenu": {
   "tooltip": false,

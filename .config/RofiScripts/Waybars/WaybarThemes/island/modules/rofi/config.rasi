@@ -15,4 +15,4 @@ configuration{
  me-accept-entry: "MousePrimary"; */
 }
 
-@theme "~/.config/RofiScripts/Waybars/WaybarThemes/bar/modules/rofi/theme.rasi"
+@theme "~/.config/RofiScripts/Waybars/WaybarThemes/island/modules/rofi/theme.rasi"
