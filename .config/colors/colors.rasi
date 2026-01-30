@@ -1,13 +1,13 @@
 * {
-    primary: #cba6f7;
-    secondary: #cdd6f4;
-    tertiary: #f38ba8;
+    primary: #A7C080;
+    secondary: #D3C6AA;
+    tertiary: #D3C6AA;
     error: #ffb4ab;
     on-error: #690005;
     error-container: #93000a;
-    surface: #1e1e2e;
-    outline: #6c7086;
-    surface-container: #313244;
-    surface-container-high: #45475a;
-    surface-container-highest: #585b70;
+    surface: #272E33;
+    outline: #7A8478;
+    surface-container: #2E383C;
+    surface-container-high: #374145;
+    surface-container-highest: #414B50;
 }
