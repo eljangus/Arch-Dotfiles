@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=WhatsApp
-Comment=WhatsApp in Browser
+Comment=WhatsApp in the Browser (Firefox)
 Exec=firefox --new-window https://web.whatsapp.com/
 Terminal=false
 Type=Application

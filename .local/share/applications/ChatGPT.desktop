@@ -1,6 +1,6 @@
 [Desktop Entry]
 Name=ChatGPT
-Comment=ChatGPT in Browser
+Comment=ChatGPT in the Browser (Firefox)
 Exec=firefox --new-window https://chatgpt.com
 Terminal=false
 Type=Application
