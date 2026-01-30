@@ -42,7 +42,7 @@ window#waybar.empty #window {
     color: @secondary;
     transition: all 0.3s ease;
 }
-
+#workspaces button label { transition: 0.3s all ease; }
 #workspaces button.empty label { color: alpha(@secondary, 0.5) }
 #workspaces button.active {
     background: linear-gradient(45deg, @primary, @tertiary);
