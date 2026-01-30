@@ -43,8 +43,9 @@
     },
     "mpris": {
      "autohide": false,
+     "blacklist": [ "playerctld" ],
      "show-album-art": "always",
-     "loop-carousel": true
+     "loop-carousel": false
     },
     "volume": {
      "label": "",
