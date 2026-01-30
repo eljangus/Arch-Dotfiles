@@ -98,7 +98,7 @@ rofi-calc
 rofi-emoji
 sddm
 sddm-silent-theme
-spotify-launcher
+spotify
 starship
 steam
 stow
