@@ -62,6 +62,7 @@
                       },  
 "tray": {
   "spacing": 10,
+  "icon-size": 20,
         },       
 "group/traywer": {
  "orientation": "horizontal",
