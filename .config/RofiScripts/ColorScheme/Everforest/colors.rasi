@@ -5,9 +5,9 @@
     error: #ffb4ab;
     on-error: #690005;
     error-container: #93000a;
-    surface: #1E2326;
+    surface: #272E33;
     outline: #7A8478;
-    surface-container: #272E33;
-    surface-container-high: #2E383C;
-    surface-container-highest: #374145;
+    surface-container: #2E383C;
+    surface-container-high: #374145;
+    surface-container-highest: #414B50;
 }

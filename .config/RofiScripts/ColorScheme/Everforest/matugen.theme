@@ -25,7 +25,7 @@ theme[hi_fg]="#bac8da"
 theme[selected_bg]="#A7C080"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#1E2326"
+theme[selected_fg]="#272E33"
 
 # Color of inactive/disabled text
 theme[inactive_fg]="#7A8478"
