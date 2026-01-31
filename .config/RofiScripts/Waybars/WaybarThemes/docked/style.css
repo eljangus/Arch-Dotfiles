@@ -27,103 +27,95 @@ window#waybar.empty #window {
 }
 
 #custom-System {
-    background: @surface_container;
+    background: none;
     border-radius: 0.12em;
     font-size: 1.25em;
     color: @secondary;
-    padding: 0em 0.56em;
-    margin: 0.3em 0.08em 0.3em 0.16em;
+    padding: 0em 0.25em 0em 0.5em;
+    margin: 0em;
     transition: 0.3s all ease;
 }
 #custom-System:hover { color: @primary }
 
 #custom-notifications {
-    background: @surface_container;
+    background: none;
     border-radius: 0.15em;
     font-size: 1em;
     color: @secondary;
-    padding: 0em 0.85em;
-    margin: 0.35em 0.1em;
+    padding: 0em 0.3125em;
+    margin: 0em;
     transition: 0.3s all ease;
 }
 #custom-notifications:hover { color: @primary }
 
 #workspaces {
-    background: @surface_container;
-    padding: 0.35em 0.6em 0.35em 0.6em;
+    background: none;
+    padding: 0.35em 0em 0.35em 0em;
     border-radius: 0.15em;
-    margin: 0.375em 0.1em;
+    margin: 0em;
     transition: 0.3s all ease;
 }
 
 #workspaces button {
     background: transparent;
-    border-radius: 0.1em;
     color: transparent;
     transition: all 0.3s ease;
 }
 
 #workspaces button label {
-    background: @surface_container_high;
-    padding: 0em 1.6em;
-    border-radius: 0.6em;
-    font-size: 0.25em;
-    margin: 0.7em 0.4em;
+    background: @none;
+    color: @secondary;
+    padding: 0em 0.3125em;
+    border-radius: 0em;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+    margin: 0em 0em;
     transition: all 0.3s ease;
 }
 
 #workspaces button.active label {
-    background: @primary;
-    font-size: 0.25em;
-    padding: 0em 6em;
-    border-radius: 0.6em;
-    margin: 0.7em 0.4em;
+    background: none;
+    color: @primary;
+    font-size: 1em;
+    padding: 0em 0.3125em;
+    border-radius: 0em;
+    border-bottom: 2px solid @primary;
+    margin: 0em 0em;
     transition: all 0.3s ease;
 }
-
-#workspaces button.active.empty label,
-#workspaces button.active label { color: transparent }
-#workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: transparent; background: @primary }
-#workspaces button:hover label,
-#workspaces button.empty:hover label { color: transparent; background-color: @surface_container_highest }
-#workspaces button.active.empty,
-#workspaces button.active { color: transparent; background: transparent }
-#workspaces button.active.empty:hover,
-#workspaces button.active:hover { color: transparent; background: transparent }
-#workspaces button:hover { color: transparent; background: transparent }
-#workspaces button.empty { color: transparent; background: transparent }
-#workspaces button.empty:hover { color: transparent; background: transparent }
-
+#workspaces button:hover label { color: @primary; }
+#workspaces button.empty:hover label { color: alpha(@primary, 0.5); }
+#workspaces button.empty label { color: alpha(@secondary, 0.5); }
+#workspaces button.empty.active label { color: alpha(@primary, 0.5); }
 #clock {
-    background: @surface_container;
-    border-radius: 0.1766em;
+    background: none;
+    border-radius: 0em;
     font-size: 0.85em;
     color: @secondary;
-    padding: 0em 0.825em;
-    margin: 0.45em 0.12em;
+    padding: 0em 0.368em;
+    margin: 0em 0em;
     transition: 0.3s all ease;
 }
 #clock:hover { color: @primary; }
 
 #window label { font-size: 0.85em; }
 #window {
-    background: @surface_container;
-    border-radius: 0.15em;
+    background: none;
+    border-radius: 0em;
     color: @secondary;
-    padding: 0em 0.7em;
-    margin: 0.375em 0.12em;
+    padding: 0em 0.3125em;
+    margin: 0em 0em;
     transition: 0.3s all ease;
 }
 #window:hover { color: @primary; }
 
 #mpris {
-    background: @surface_container;
-    border-radius: 0.1766em;
+    background: none;
+    border-radius: 0em;
     font-size: 0.85em;
     color: @secondary;
-    padding: 0em 0.825em;
-    margin: 0.45em 0.12em;
+    padding: 0em 0.368em;
+    margin: 0em 0em;
     transition: 0.3s all ease;
 }
 #mpris:hover { color: @primary; }
@@ -143,16 +135,16 @@ window#waybar.empty #window {
     box-shadow: none;
 }
 #pulseaudio-slider trough {
-    background: @surface_container_high; 
+    background: @surface_container; 
     min-width: 4em; 
     min-height: 0.3em; 
     box-shadow: none;
-    border-radius: 0.075em; 
+    border-radius: 0em; 
 }
 
 #pulseaudio-slider highlight {
     background: @primary;
-    border-radius: 0.075em; 
+    border-radius: 0em; 
     margin: 0;
     box-shadow: none;
     border: 0 solid @border;
@@ -177,12 +169,12 @@ window#waybar.empty #window {
 #netblue,
 #traywermen,
 #idlevol {
-    background: @surface_container;
-    border-radius: 0.15em;
+    background: none;
+    border-radius: 0em;
     font-size: 1em;
     color: @secondary;
-    padding: 0em 0.55em;
-    margin: 0.375em 0.1em;
+    padding: 0em 0em;
+    margin: 0em 0em;
     transition: 0.3s all ease;
 }
 #pulseaudio:hover,
@@ -197,13 +189,13 @@ window#waybar.empty #window {
 #traywermen:hover,
 #idlevol:hover { color: @primary; }
 
-#traywermen { margin-right: 0.2em }
+#traywermen { margin-right: 0.275em }
 
 tooltip {
     background-color: @background;
     padding: 0.5em;
     color: @secondary;
-    border-radius: 0.1em;
+    border-radius: 0em;
     border: 0 solid @border;
     border: 1px solid @surface_container;
 }
@@ -217,7 +209,7 @@ tooltip label {
 
 #tray label { font-size: 0.85em; }
 #tray {
-    border-radius: 0.1em;
+    border-radius: 0em;
     padding: 0em 0.25em;
     color: @secondary;
     border: 0 solid @border;
@@ -228,7 +220,7 @@ tooltip label {
 #tray menu, menu {
     background: @background;
     color: @secondary;
-    border-radius: 0.1em;
+    border-radius: 0em;
 }
 
 #tray menu menuitem {
@@ -239,14 +231,14 @@ tooltip label {
 
 #tray menu menuitem:last-child,
 #tray menu menuitem:hover:last-child {
-    border-bottom-left-radius: 0.1em;
-    border-bottom-right-radius: 0.1em;
+    border-bottom-left-radius: 0em;
+    border-bottom-right-radius: 0em;
 }
 
 #tray menu menuitem:first-child,
 #tray menu menuitem:hover:first-child {
-    border-top-left-radius: 0.1em;
-    border-top-right-radius: 0.1em;
+    border-top-left-radius: 0em;
+    border-top-right-radius: 0em;
 }
 
 #tray menu menuitem:hover {
