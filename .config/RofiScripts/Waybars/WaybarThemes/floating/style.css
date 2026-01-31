@@ -63,7 +63,7 @@ window#waybar.empty #window {
 
 #workspaces button label {
     background: @surface_container;
-    padding: 0em 2.1em;
+    padding: 0em 2.2em;
     border-radius: 10em;
     font-size: 0.25em;
     margin: 1em 0.4em;
@@ -73,7 +73,7 @@ window#waybar.empty #window {
 #workspaces button.active label {
     background: @primary;
     font-size: 0.25em;
-    padding: 0em 8em;
+    padding: 0em 6em;
     border-radius: 10em;
     margin: 1em 0.4em;
     transition: all 0.3s ease;
