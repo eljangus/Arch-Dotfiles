@@ -45,7 +45,7 @@ window#waybar.empty #window {
 #workspaces button label { transition: 0.3s all ease; }
 #workspaces button.empty label { color: alpha(@secondary, 0.5) }
 #workspaces button.active {
-    background: linear-gradient(45deg, @primary, @tertiary);
+    background: @primary;
     border-radius: 1.5em;
     padding: 0.05em 1.25em;
     color: @background;
@@ -109,7 +109,7 @@ window#waybar.empty #window {
 }
 
 #pulseaudio-slider highlight {
-    background: linear-gradient(45deg, @primary, @tertiary);
+    background: @primary;
     border-radius: 1.5em; 
     margin: 0;
     box-shadow: none;

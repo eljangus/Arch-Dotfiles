@@ -71,7 +71,7 @@ window#waybar.empty #window {
 }
 
 #workspaces button.active label {
-    background: linear-gradient(45deg, @primary, @tertiary);
+    background: @primary;
     font-size: 0.25em;
     padding: 0em 8em;
     border-radius: 10em;
@@ -82,7 +82,7 @@ window#waybar.empty #window {
 #workspaces button.active.empty label,
 #workspaces button.active label { color: transparent }
 #workspaces button.active.empty:hover label,
-#workspaces button.active:hover label { color: transparent; background: linear-gradient(45deg, @primary, @tertiary) }
+#workspaces button.active:hover label { color: transparent; background: @primary }
 #workspaces button:hover label,
 #workspaces button.empty:hover label { color: transparent; background-color: @surface_container_high }
 #workspaces button.active.empty,
@@ -149,7 +149,7 @@ window#waybar.empty #window {
 }
 
 #pulseaudio-slider highlight {
-    background: linear-gradient(45deg, @primary, @tertiary);
+    background: @primary;
     border-radius: 1.5em; 
     margin: 0;
     box-shadow: none;
