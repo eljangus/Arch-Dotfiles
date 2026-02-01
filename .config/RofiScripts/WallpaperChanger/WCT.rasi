@@ -30,8 +30,8 @@ textbox {
 entry {
   hide-cursor-on-empty: true;
   placeholder: " Suchen...";
-  placeholder-color: var(secondary);
-  text-color: var(secondary);
+  placeholder-color: var(on-surface);
+  text-color: var(on-surface);
   border-color: var(primary);
   border: 0.075em;
   padding: 0.4em 0.54em 0.4em 0.54em;
@@ -42,8 +42,8 @@ entry {
 
 textbox-custom {
   str: "󰸉 Hintergrund";
-  placeholder-color: var(secondary);
-  text-color: var(primary);
+  placeholder-color: var(on-surface);
+  text-color: var(secondary);
   border: 0.075em;
   border-color: var(primary);
   padding: 0.4em 0.54em 0.4em 0.54em;
@@ -94,32 +94,32 @@ element {
 
 element normal.normal {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element normal.active {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element normal.urgent {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element alternate.active {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element alternate.normal {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element alternate.urgent {
   background-color: transparent;
-  text-color: var(secondary);
+  text-color: var(on-surface);
 }
 
 element-text {
@@ -134,7 +134,7 @@ element selected.urgent,
 element selected.active,
 element selected.normal {
   background-color: var(surface-container);
-  text-color: var(secondary);
+  text-color: var(on-surface);
   border: 0em;
   border-color: var(primary);
 }

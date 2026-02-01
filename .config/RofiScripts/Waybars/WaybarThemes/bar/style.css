@@ -30,7 +30,7 @@ window#waybar.empty #window {
     background: @surface_container;
     border-radius: 1.2em;
     font-size: 1.25em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.56em;
     margin: 0.3em 0.08em 0.3em 0.35em;
     transition: 0.3s all ease;
@@ -41,7 +41,7 @@ window#waybar.empty #window {
     background: @surface_container;
     border-radius: 1.5em;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.85em;
     margin: 0.35em 0.1em;
     transition: 0.3s all ease;
@@ -99,7 +99,7 @@ window#waybar.empty #window {
     background: @surface_container;
     border-radius: 1.766em;
     font-size: 0.85em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.825em;
     margin: 0.45em 0.12em;
     transition: 0.3s all ease;
@@ -110,7 +110,7 @@ window#waybar.empty #window {
 #window {
     background: @surface_container;
     border-radius: 1.5em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.7em;
     margin: 0.375em 0.14em;
     transition: 0.3s all ease;
@@ -121,7 +121,7 @@ window#waybar.empty #window {
     background: @surface_container;
     border-radius: 1.766em;
     font-size: 0.85em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.825em;
     margin: 0.45em 0.14em;
     transition: 0.3s all ease;
@@ -133,10 +133,10 @@ window#waybar.empty #window {
     background: transparent; 
     border-radius: 1.5em; 
     padding: 0 0.4em 0 0.4em; 
-    color: @secondary;
+    color: @on_surface;
 }
 #pulseaudio-slider slider {
-    background: @secondary;
+    background: @on_surface;
     min-height: 0;
     min-width: 0;
     margin: 0em;
@@ -168,7 +168,7 @@ window#waybar.empty #window {
 #pulseaudio {
     background: transparent;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.1em;
     margin: 0em 0.25em;
     transition: 0.3s all ease;
@@ -180,7 +180,7 @@ window#waybar.empty #window {
     background: @surface_container;
     border-radius: 1.5em;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.55em;
     margin: 0.375em 0.1em;
     transition: 0.3s all ease;
@@ -202,7 +202,7 @@ window#waybar.empty #window {
 tooltip {
     background-color: @background;
     padding: 0.5em;
-    color: @secondary;
+    color: @on_surface;
     border-radius: 1em;
     border: 0 solid @border;
     border: 1px solid @surface_container;
@@ -212,14 +212,14 @@ tooltip label {
     font-size: 0.85em;
     padding: 0.5em 1em;
     font-weight: bold;
-    color: @secondary;
+    color: @on_surface;
 }
 
 #tray label { font-size: 0.85em; }
 #tray {
     border-radius: 1em;
     padding: 0em 0.25em;
-    color: @secondary;
+    color: @on_surface;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
@@ -227,13 +227,13 @@ tooltip label {
 #tray menu { border: 1px solid @surface_container; padding: 0.05em; }
 #tray menu, menu {
     background: @background;
-    color: @secondary;
+    color: @on_surface;
     border-radius: 1em;
 }
 
 #tray menu menuitem {
     background: @background;
-    color: @secondary;
+    color: @on_surface;
     padding: 0.35em 1em;
 }
 

@@ -47,32 +47,32 @@ element{
 
 element normal.normal{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element normal.active{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element normal.urgent{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element alternate.active{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element alternate.normal{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element alternate.urgent{
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
 }
 
 element-text{
@@ -85,21 +85,21 @@ element-text{
 
 element selected.normal {
  background-color: var(surface-container);
- text-color: var(secondary);
+ text-color: var(on-surface);
  border: 0;
  border-color: var(primary);
 }
 
 element selected.urgent {
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
  border: 0;
  border-color: var(primary);
 }
 
 element selected.active {
  background-color: transparent;
- text-color: var(secondary);
+ text-color: var(on-surface);
  border: 0;
  border-color: var(primary);
 }
