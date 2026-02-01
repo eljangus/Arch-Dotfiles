@@ -62,7 +62,7 @@
 .notification:hover {
   background-color: @surface_container;
   color: @secondary;
-  border: 1px solid @surface_container_highest;
+  border: 1px solid @surface_container_high;
 }
 .notification-group {
   border-radius: 0;
@@ -116,7 +116,7 @@
 }
 .widget-title>button label:hover {
   color: @secondary;
-  background-color: @surface_container_highest;
+  background-color: @surface_container_high;
 }
 .control-center-list {
   margin: 0.25em 1em 1em 1em;
@@ -237,13 +237,13 @@ scrollbar trough:hover {
   border-radius: var(--button-radius);
 }
 .widget-mpris button { 
-  background-color: alpha(@surface_container_highest, 0.5);
+  background-color: alpha(@surface_container_high, 0.5);
   transition: all 0.3s ease;
   border-radius: var(--button-radius);
   padding: 0.35em;
 }
 .widget-mpris button:hover {
-  background-color: alpha(@surface_container_highest, 0.7);
+  background-color: alpha(@surface_container_high, 0.7);
 }
 .widget-mpris>box>button {
   background-color: transparent;
@@ -257,7 +257,7 @@ scrollbar trough:hover {
 }
 .widget-mpris>box>button:hover {
   border: 0.125em solid transparent;
-  background-color: @surface_container_highest;
+  background-color: @surface_container_high;
 } 
 .widget-mpris-player {
   border-radius: var(--border-radius);
@@ -290,7 +290,7 @@ scrollbar trough:hover {
   border-radius: var(--button-radius);
 }
 .widget-buttons-grid>flowbox>flowboxchild>button:hover {
-  background: @surface_container_highest;
+  background: @surface_container_high;
   margin: 0.1em 0em 0.1em 0.1em;
   padding: 1.3em 2.054em;
 }

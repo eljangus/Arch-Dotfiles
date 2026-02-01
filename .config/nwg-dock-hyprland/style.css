@@ -109,7 +109,7 @@ tooltip label {
 }
 
 menu, menu {
-  background-color: @surface_container_container;
+  background-color: @background;
   color: @secondary;
   padding: 0; 
   border: 1px solid @surface_container;
