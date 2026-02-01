@@ -39,11 +39,11 @@ window#waybar.empty #window {
     background: none;
     border-radius: 1.5em;
     padding: 0.05em 0.75em;
-    color: @secondary;
+    color: @on_surface;
     transition: all 0.3s ease;
 }
 #workspaces button label { transition: 0.3s all ease; }
-#workspaces button.empty label { color: alpha(@secondary, 0.5) }
+#workspaces button.empty label { color: alpha(@on_surface, 0.5) }
 #workspaces button.active {
     background: @primary;
     border-radius: 1.5em;
@@ -55,7 +55,7 @@ window#waybar.empty #window {
 #workspaces button:hover label { color: @primary }
 #workspaces button.active:hover label { color: @background; }
 #workspaces button label {
-    color: @secondary;
+    color: @on_surface;
 }
 #workspaces button.active label {
     color: @background;
@@ -65,7 +65,7 @@ window#waybar.empty #window {
     background: @background;
     border-radius: 1.5em 0 0 1.5em;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.5em 0 1em;
     margin: 0em;
     transition: all 0.3s ease;
@@ -79,7 +79,7 @@ window#waybar.empty #window {
     background: @background;
     border-radius: 0;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.5em 0em 0.5em;
     margin: 0em 0em 0 0;
     border-top: 1px solid @surface_container;
@@ -92,7 +92,7 @@ window#waybar.empty #window {
     background: transparent; 
     border-radius: 1.5em; 
     padding: 0 1em 0 0em; 
-    color: @secondary;
+    color: @on_surface;
 }
 #pulseaudio-slider slider {
     background: none;
@@ -120,7 +120,7 @@ window#waybar.empty #window {
 #volume {
     background: @background;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.5em 0 0.5em;
     margin: 0em 0em 0em 0em;
     border-top: 1px solid @surface_container;
@@ -132,7 +132,7 @@ window#waybar.empty #window {
 #network {
     background: @background;
     font-size: 1em;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 0.5em 0em 0.5em;
     border-top: 1px solid @surface_container;
     border-bottom: 1px solid @surface_container;
@@ -148,7 +148,7 @@ window#waybar.empty #window {
     border-top: 1px solid @surface_container;
     border-bottom: 1px solid @surface_container;
     border-right: 1px solid @surface_container;
-    color: @secondary;
+    color: @on_surface;
     padding: 0em 1em 0em 0.5em;
     margin: 0em;
     transition: all 0.3s ease;
@@ -159,7 +159,7 @@ window#waybar.empty #window {
 tooltip {
     background-color: @background;
     padding: 0.5em;
-    color: @secondary;
+    color: @on_surface;
     border-radius: 1.5em;
     border: 1px solid @surface_container
 }
@@ -169,7 +169,7 @@ tooltip label {
     padding: 0.5em 1em;
     border-radius: 1.5em;
     font-weight: bold;
-    color: @secondary;
+    color: @on_surface;
 }
 
 #tray menu { border: 1px solid @surface_container; padding: 0.05em; }
@@ -177,20 +177,20 @@ tooltip label {
 #tray {
     border-radius: 1.5em;
     padding: 0em 0.25em;
-    color: @secondary;
+    color: @on_surface;
     border: 0 solid @border;
     transition: 0.3s all ease;
 }
 
 #tray menu, menu {
     background: @background;
-    color: @secondary;
+    color: @on_surface;
     border-radius: 1em;
 }
 
 #tray menu menuitem {
     background: @background;
-    color: @secondary;
+    color: @on_surface;
     padding: 0.3em;
 }
 

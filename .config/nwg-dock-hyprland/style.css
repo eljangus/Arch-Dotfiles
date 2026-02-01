@@ -16,7 +16,7 @@ window {
 * {
   background: none;
   background-color: transparent;
-  color: @secondary;
+  color: @on_surface;
   font-size: 16px;
   font-family: "JetBrainsMono Nerd Font";
   box-shadow: none;
@@ -59,14 +59,14 @@ button image {
   outline: none;  
   box-shadow: none;
   text-shadow: none;
-  color: @secondary;
+  color: @on_surface;
 }
 
 button {
   border: 2px solid transparent;
   padding: 0.625em;
   margin: 0.2em;
-  color: @secondary;
+  color: @on_surface;
   border-radius: 1em;
   background-color: @surface_container;
   transition: all 0.3s ease;
@@ -95,7 +95,7 @@ button:focus {
 tooltip {
   background-color: @background;
   padding: 0.3125em; 
-  color: @secondary;
+  color: @on_surface;
   border-radius: 1em;
   border: 1px solid @surface_container;
 }
@@ -104,13 +104,13 @@ tooltip label {
   padding: 0.3125em;
   border-radius: 1em;
   font-weight: bold;
-  color: @secondary;
+  color: @on_surface;
   text-shadow: none;
 }
 
 menu, menu {
   background-color: @background;
-  color: @secondary;
+  color: @on_surface;
   padding: 0; 
   border: 1px solid @surface_container;
   border-radius: 1em;
@@ -138,18 +138,18 @@ menu menuitem:first-child {
 }
 
 menu menuitem label {
-  color: @secondary;
+  color: @on_surface;
 }
 
 menu menuitem:hover label {
-  color: @secondary;
+  color: @on_surface;
 }
 
 menu menu menuitem label {
-  color: @secondary; 
+  color: @on_surface; 
 }
 
 menu menu menuitem:hover label {
-  color: @secondary;
+  color: @on_surface;
 }
 
