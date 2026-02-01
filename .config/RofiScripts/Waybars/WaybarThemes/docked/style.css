@@ -28,10 +28,10 @@ window#waybar.empty #window {
 
 #custom-System {
     background: none;
-    border-radius: 0.12em;
-    font-size: 1.25em;
+    border-radius: 0.134em;
+    font-size: 1.125em;
     color: @secondary;
-    padding: 0em 0.25em 0em 0.5em;
+    padding: 0em 0.278em 0em 0.556em;
     margin: 0em;
     transition: 0.3s all ease;
 }
